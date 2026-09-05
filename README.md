@@ -77,15 +77,15 @@ Windows sürümü NSIS kurulum paketi olarak dağıtılır. Mevcut Windows paket
 
 ## 🔐 Veri mahremiyeti
 
-NöbetçiTakvim **local-first** tasarlanmıştır. Müvekkil, dosya, iş, duruşma ve takvim verilerinin ana kaydı sizin bilgisayarınızdadır. Uygulamanın temel çalışma modeli, bu verileri uzak bir sunucuya yükleyip orada işlemeye dayanmaz.
+NöbetçiTakvim, yalnız sizin erişim yetkiniz bulunan verilerle çalışır ve bu verileri esas olarak kendi bilgisayarınızda işler. UYAP .ics dosyalarından alınan bilgiler de cihazınızda işlenir ve yerel veritabanınızda tutulur.
 
-- **UYAP `.ics` içe aktarma yereldir.** Takvim dosyası cihazınızda işlenir; müvekkil ve dosya kartları yerel veritabanında oluşturulur.
-- **YZ/LLM servisine veri gönderilmez.** NöbetçiTakvim belge veya dosya içeriğinizi bir yapay zekâ servisine göndererek analiz etmez.
-- **Ticari kullanıcı profillemesi amacı yoktur.** Uygulama, hukuk bürosu verilerini reklam, davranışsal profilleme veya benzeri bir amaçla toplamak üzere tasarlanmamıştır.
-- **Google Takvim isteğe bağlıdır.** Bu bağlantıyı siz etkinleştirirseniz, yalnız seçtiğiniz entegrasyonun çalışması için gerekli veriler Google hesabınızla paylaşılır. Yerel kayıt yapısı uygulamanın ana kaydı olmaya devam eder.
-- **Kaynak ve dağıtım ayrıdır.** Bu public depo yalnız doğrulanmış son kullanıcı paketlerini dağıtır; uygulamanın özel kaynak deposunu veya kullanıcı verilerini barındırmaz.
+NöbetçiTakvim geliştiricisinin kullanıcıların uygulamalarına, yerel veritabanlarına, müvekkil bilgilerine, dosya bilgilerine, duruşmalarına veya diğer kayıtlarına uzaktan erişim imkânı bulunmamaktadır. Uygulamada geliştiricinin bu verilere erişmesini sağlayan bir merkezi sunucu, kullanıcı hesabı altyapısı, yönetim paneli veya benzeri bir uzaktan erişim mekanizması yoktur.
 
-Kısacası NöbetçiTakvim’in mahremiyet yaklaşımı şudur: **gerekmeyen veriyi toplama, gerekmeyen yere gönderme, kullanıcıya ait hukuk verisini mümkün olduğunca kullanıcının cihazında tut.**
+Bu nedenle uygulamaya kaydettiğiniz veriler, siz ayrıca ve bilerek paylaşmadığınız sürece geliştiriciye, geliştiricinin bilgisayarına veya başka bir üçüncü kişiye aktarılmaz. NöbetçiTakvim bu verileri geliştirici adına herhangi bir harici veri merkezinde de saklamaz.
+
+Google Takvim entegrasyonu tamamen isteğe bağlıdır. Google Takvim kullanmasanız da NöbetçiTakvim’in masaüstü bildirimlerinden yararlanabilirsiniz. Google Takvim bağlantısını etkinleştirmeniz hâlinde, entegrasyonun çalışması için gerekli takvim verileri Google’ın sunucularıyla paylaşılabilir. Bu durumda veri Google hizmeti kapsamında işlenebilir; ancak bu paylaşım geliştiriciye erişim hakkı vermez ve söz konusu veriler geliştiricinin sistemlerine aktarılmaz.
+
+Özetle: NöbetçiTakvim’de tuttuğunuz hukuk verilerine geliştiricinin teknik erişimi yoktur. Verileriniz kendi bilgisayarınızda kalır; Google Takvim’i siz özellikle etkinleştirirseniz yalnız bu entegrasyon için gerekli veriler Google altyapısıyla paylaşılabilir.
 
 ## 🤲 Küçük bir ricam
 
