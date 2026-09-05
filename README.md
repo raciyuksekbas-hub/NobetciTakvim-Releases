@@ -77,15 +77,21 @@ Windows sürümü NSIS kurulum paketi olarak dağıtılır. Mevcut Windows paket
 
 ## 🔐 Veri mahremiyeti
 
-NöbetçiTakvim, yalnız sizin erişim yetkiniz bulunan verilerle çalışır ve bu verileri esas olarak kendi bilgisayarınızda işler. UYAP .ics dosyalarından alınan bilgiler de cihazınızda işlenir ve yerel veritabanınızda tutulur.
+NöbetçiTakvim, **kullanıcı verilerinin mümkün olduğunca kullanıcının kendi cihazında kalması** esasına göre tasarlanmıştır. Müvekkil, dosya, iş, duruşma ve takvim kayıtlarının ana kaydı bilgisayarınızdaki yerel veritabanıdır.
 
-NöbetçiTakvim geliştiricisinin kullanıcıların uygulamalarına, yerel veritabanlarına, müvekkil bilgilerine, dosya bilgilerine, duruşmalarına veya diğer kayıtlarına uzaktan erişim imkânı bulunmamaktadır. Uygulamada geliştiricinin bu verilere erişmesini sağlayan bir merkezi sunucu, kullanıcı hesabı altyapısı, yönetim paneli veya benzeri bir uzaktan erişim mekanizması yoktur.
+UYAP’tan içe aktarılan bilgiler, **sizin kendi UYAP erişiminiz kapsamında dışa aktardığınız `.ics` dosyasından** alınır ve cihazınızda işlenir. NöbetçiTakvim, UYAP sistemine ayrıca bağlanarak sizin adınıza başka veri toplamaz.
 
-Bu nedenle uygulamaya kaydettiğiniz veriler, siz ayrıca ve bilerek paylaşmadığınız sürece geliştiriciye, geliştiricinin bilgisayarına veya başka bir üçüncü kişiye aktarılmaz. NöbetçiTakvim bu verileri geliştirici adına herhangi bir harici veri merkezinde de saklamaz.
+**NöbetçiTakvim geliştiricisinin kullanıcıların uygulamalarına veya yerel veritabanlarına uzaktan erişim imkânı bulunmamaktadır.** Uygulamada geliştiricinin müvekkil, dosya, iş, duruşma veya diğer kayıtlarınıza erişmesini sağlayan bir merkezi veri sunucusu, kullanıcı hesabı altyapısı, yönetim paneli veya benzeri bir uzaktan erişim mekanizması yoktur.
 
-Google Takvim entegrasyonu tamamen isteğe bağlıdır. Google Takvim kullanmasanız da NöbetçiTakvim’in masaüstü bildirimlerinden yararlanabilirsiniz. Google Takvim bağlantısını etkinleştirmeniz hâlinde, entegrasyonun çalışması için gerekli takvim verileri Google’ın sunucularıyla paylaşılabilir. Bu durumda veri Google hizmeti kapsamında işlenebilir; ancak bu paylaşım geliştiriciye erişim hakkı vermez ve söz konusu veriler geliştiricinin sistemlerine aktarılmaz.
+Bu nedenle uygulamaya kaydettiğiniz veriler, **siz ayrıca ve bilerek paylaşmadığınız sürece geliştiriciye, geliştiricinin bilgisayarına veya geliştirici tarafından işletilen başka bir sisteme aktarılmaz.**
 
-Özetle: NöbetçiTakvim’de tuttuğunuz hukuk verilerine geliştiricinin teknik erişimi yoktur. Verileriniz kendi bilgisayarınızda kalır; Google Takvim’i siz özellikle etkinleştirirseniz yalnız bu entegrasyon için gerekli veriler Google altyapısıyla paylaşılabilir.
+**Google Takvim entegrasyonu tamamen isteğe bağlıdır.** Google Takvim kullanmasanız da NöbetçiTakvim’in yerel masaüstü bildirimlerinden yararlanabilirsiniz. Google Takvim bağlantısını etkinleştirmeniz hâlinde, takvim kaydının ve ilgili hatırlatmaların oluşturulması için gerekli bilgiler Google’ın sistemlerine aktarılabilir ve Google tarafından işlenebilir. Bu veri akışı **geliştiricinin sistemlerinden geçmez ve geliştiriciye kullanıcı verilerine erişim sağlamaz.**
+
+NöbetçiTakvim ayrıca yalnız sürüm kontrolü amacıyla GitHub’ın herkese açık sürüm bilgisini sorgulayabilir. Bu işlem sırasında uygulama tarafından **müvekkil, dosya, iş veya duruşma verisi gönderilmez.**
+
+Kullanıcının destek talebi kapsamında kendi iradesiyle geliştiriciye gönderdiği ekran görüntüsü, log dosyası veya başka bir içerik ise doğal olarak bu yerel çalışma düzeninin dışındadır.
+
+> **Özetle:** NöbetçiTakvim’de tuttuğunuz hukuk verilerine geliştiricinin teknik erişimi yoktur. Verilerinizin ana kaydı kendi bilgisayarınızdadır; Google Takvim’i siz özellikle etkinleştirirseniz yalnız bu entegrasyon için gerekli veriler Google altyapısıyla paylaşılabilir.
 
 ## 🤲 Küçük bir ricam
 
