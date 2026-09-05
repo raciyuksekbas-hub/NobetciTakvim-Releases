@@ -112,7 +112,7 @@ Ben yazılımcı değilim. Yalnızca yapay zekâ kullanmayı seven; vibe coding 
 
 Bu nedenle NöbetçiTakvim'in hataları, eksikleri veya geliştirilmesi gereken yönleri olabilir. Uygulamayı kullandıkça karşılaştığınız sorunları, dileklerinizi, önerilerinizi ve eleştirilerinizi benimle paylaşırsanız, Değişikİş'i birlikte daha iyi bir hale getirebiliriz.
 
-Uygulamayı sizlere ücretsiz olarak sunuyorum. Bunun karşılığında tek beklentim; beni yetiştiren müteveffa anneannem Cemile Salman’ın aziz ruhu ve hatırası için, kendi inancınız çerçevesinde bir dua etmenizdir.
+Uygulamayı sizlere ücretsiz olarak sunuyorum. Bunun karşılığında tek beklentim; beni yetiştiren müteveffa anneannem Cemile Salman’a; ayrıca Türk Kurtuluş Savaşı'nda emeği geçen tüm şehit ve gazilerimiz ile Türk Ordularının Başkomutanı ve Hukuk Devrimimizin öncüsü Büyük Önder Mustafa Kemal Atatürk'ün aziz hatırasına kendi inancınız çerçevesinde bir dua etmenizdir.
 
 Sevgiler,  
 Raci
