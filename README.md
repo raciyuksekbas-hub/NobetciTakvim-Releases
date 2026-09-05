@@ -75,11 +75,21 @@ DMG dosyasını açın ve NöbetçiTakvim’i **Applications / Uygulamalar** kla
 
 Windows sürümü NSIS kurulum paketi olarak dağıtılır. Mevcut Windows paketi kod imzasız olduğundan SmartScreen ilk kurulumda uyarı gösterebilir.
 
-## 🔒 Veri yaklaşımı
+## 🔐 Veri mahremiyeti
 
-NöbetçiTakvim **local-first** tasarlanmıştır. Müvekkil, dosya, iş ve takvim verilerinin ana kaydı cihazınızdadır. Uygulama; belge içeriğini analiz etmek, hukuki karar vermek veya kullanıcı verisini uzaktaki bir yapay zekâ servisine göndermek üzerine kurulmamıştır.
+NöbetçiTakvim **local-first** tasarlanmıştır. Müvekkil, dosya, iş, duruşma ve takvim verilerinin ana kaydı sizin bilgisayarınızdadır. Uygulamanın temel çalışma modeli, bu verileri uzak bir sunucuya yükleyip orada işlemeye dayanmaz.
 
-Google Takvim bağlantısı kullanılıyorsa bu, isteğe bağlı bir yardımcı kanal olarak çalışır; uygulamanın yerel kayıt yapısının yerini almaz.
+- **UYAP `.ics` içe aktarma yereldir.** Takvim dosyası cihazınızda işlenir; müvekkil ve dosya kartları yerel veritabanında oluşturulur.
+- **YZ/LLM servisine veri gönderilmez.** NöbetçiTakvim belge veya dosya içeriğinizi bir yapay zekâ servisine göndererek analiz etmez.
+- **Ticari kullanıcı profillemesi amacı yoktur.** Uygulama, hukuk bürosu verilerini reklam, davranışsal profilleme veya benzeri bir amaçla toplamak üzere tasarlanmamıştır.
+- **Google Takvim isteğe bağlıdır.** Bu bağlantıyı siz etkinleştirirseniz, yalnız seçtiğiniz entegrasyonun çalışması için gerekli veriler Google hesabınızla paylaşılır. Yerel kayıt yapısı uygulamanın ana kaydı olmaya devam eder.
+- **Kaynak ve dağıtım ayrıdır.** Bu public depo yalnız doğrulanmış son kullanıcı paketlerini dağıtır; uygulamanın özel kaynak deposunu veya kullanıcı verilerini barındırmaz.
+
+Kısacası NöbetçiTakvim’in mahremiyet yaklaşımı şudur: **gerekmeyen veriyi toplama, gerekmeyen yere gönderme, kullanıcıya ait hukuk verisini mümkün olduğunca kullanıcının cihazında tut.**
+
+## 🤲 Küçük bir ricam
+
+> Bu uygulama, meslektaşlarımın işini kolaylaştırmak amacıyla ücretsiz olarak sunulmaktadır. Karşılığında sizden tek ricam, başta anneannem olmak üzere, ahirete irtihal etmiş tüm Türk büyüklerim için bir dua etmenizdir.
 
 ## 🧪 Dosya doğrulama
 
