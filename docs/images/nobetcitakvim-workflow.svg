@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">NöbetçiTakvim çalışma akışı</title>
+  <desc id="desc">UYAP takvim verisinin müvekkil, dosya, iş, duruşma ve süre takibine dönüştüğünü gösteren sade akış görseli.</desc>
+  <rect width="1200" height="360" rx="30" fill="#111417"/>
+  <text x="70" y="62" fill="#F3F4F2" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="28" font-weight="750">Bir dosyadan günlük işe uzanan sade akış</text>
+  <text x="70" y="94" fill="#8C9196" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17">Veri modeli görünmez; kullanıcı yalnız ihtiyacı olan işi görür.</text>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <g transform="translate(70 142)">
+      <rect width="220" height="138" rx="24" fill="#1A1D20" stroke="#2A7F8E" stroke-width="2"/>
+      <circle cx="42" cy="42" r="21" fill="#173C43"/>
+      <text x="42" y="49" text-anchor="middle" font-size="22">📥</text>
+      <text x="28" y="86" fill="#F3F4F2" font-size="21" font-weight="700">UYAP .ics</text>
+      <text x="28" y="113" fill="#9DA5AB" font-size="15">Duruşma ve dosya verisi</text>
+    </g>
+
+    <path d="M310 211h74" stroke="#56636A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M374 202l14 9-14 9" fill="none" stroke="#56636A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g transform="translate(400 142)">
+      <rect width="220" height="138" rx="24" fill="#1A1D20" stroke="#39454C"/>
+      <circle cx="42" cy="42" r="21" fill="#222A2F"/>
+      <text x="42" y="49" text-anchor="middle" font-size="22">🗂️</text>
+      <text x="28" y="86" fill="#F3F4F2" font-size="21" font-weight="700">Bilgi Kartı</text>
+      <text x="28" y="113" fill="#9DA5AB" font-size="15">Müvekkil + Dosya</text>
+    </g>
+
+    <path d="M640 211h74" stroke="#56636A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M704 202l14 9-14 9" fill="none" stroke="#56636A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g transform="translate(730 142)">
+      <rect width="220" height="138" rx="24" fill="#1A1D20" stroke="#39454C"/>
+      <circle cx="42" cy="42" r="21" fill="#222A2F"/>
+      <text x="42" y="49" text-anchor="middle" font-size="22">⚖️</text>
+      <text x="28" y="86" fill="#F3F4F2" font-size="21" font-weight="700">İş + Duruşma</text>
+      <text x="28" y="113" fill="#9DA5AB" font-size="15">Ne yapılacak, ne zaman?</text>
+    </g>
+
+    <path d="M970 211h74" stroke="#56636A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M1034 202l14 9-14 9" fill="none" stroke="#56636A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g transform="translate(1060 142)">
+      <rect width="90" height="138" rx="24" fill="#173C43" stroke="#2A7F8E" stroke-width="2"/>
+      <text x="45" y="55" text-anchor="middle" font-size="25">⏱️</text>
+      <text x="45" y="91" text-anchor="middle" fill="#F3F4F2" font-size="16" font-weight="700">Süre</text>
+      <text x="45" y="114" text-anchor="middle" fill="#D4D7DB" font-size="13">ve</text>
+      <text x="45" y="134" text-anchor="middle" fill="#D4D7DB" font-size="13">hatırlatma</text>
+    </g>
+  </g>
+
+  <text x="70" y="325" fill="#6F7A81" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14">Local-first · deterministik · kullanıcı onaylı süre hesabı</text>
+</svg>
