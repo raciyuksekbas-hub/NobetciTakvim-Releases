@@ -1,38 +1,58 @@
+<p align="center">
+  <img src="docs/images/nobetcitakvim-hero.svg" alt="NöbetçiTakvim — Her iş, vaktinde." width="100%" />
+</p>
+
+<p align="center">
+  <strong>⚖️ Hukuk pratiğine özel</strong> · <strong>🖥️ macOS + Windows</strong> · <strong>🔒 Local-first</strong> · <strong>🆓 Ücretsiz</strong>
+</p>
+
+<p align="center">
+  <a href="../../releases/latest"><strong>⬇️ Son kararlı sürümü indir</strong></a>
+</p>
+
+---
+
 # NöbetçiTakvim
 
-**Avukatlar için masaüstü iş, duruşma ve süre takip uygulaması.**  
+**Avukatlar için masaüstü iş, duruşma ve hukuki süre takip uygulaması.**  
 *Her iş, vaktinde.*
 
-NöbetçiTakvim; duruşmaları, yapılacak işleri, hukuki süreleri, müvekkilleri ve dosyaları tek bir sade çalışma alanında toplar. Amacı yeni bir büro yönetim sistemi kurmak değil; hukuk pratiğinde unutulmaması gereken işi, doğru zamanda ve doğru dosyayla birlikte görünür kılmaktır.
+NöbetçiTakvim; duruşmaları, yapılacak işleri, hukuki süreleri, müvekkilleri ve dosyaları tek bir sade çalışma alanında toplar. Amacı yeni bir büro yönetim sistemi kurmak değil; hukuk pratiğinde **unutulmaması gereken işi, doğru zamanda ve doğru dosyayla birlikte görünür kılmaktır.**
 
-> **Ücretsizdir. Verilerin ana kaydı cihazınızda tutulur.** Bu depo yalnız NöbetçiTakvim'in macOS ve Windows dağıtım paketlerini içerir; kaynak kod içermez.
+> **Verilerin ana kaydı cihazınızda tutulur.** Bu depo yalnız NöbetçiTakvim’in macOS ve Windows dağıtım paketlerini içerir; kaynak kod içermez.
 
-## Neden NöbetçiTakvim?
+## 📌 Neden NöbetçiTakvim?
 
 Hukuk pratiğinde takip edilmesi gereken şeyler aynı türden değildir: bir dosyada duruşma, diğerinde bilirkişi raporuna beyan, başka bir dosyada tebligata bağlı son gün veya yerine getirilmesi gereken bir ara karar vardır.
 
-NöbetçiTakvim bu farklı işleri tek ve anlaşılır bir akışta bir araya getirir:
+NöbetçiTakvim bu farklı işleri tek ve anlaşılır bir akışta bir araya getirir.
 
-- **İş ve süre takibi:** Süreli veya süresiz işleri kaydedin; hatırlatmaları ihtiyacınıza göre yönetin.
-- **Duruşma takvimi:** Yaklaşan duruşmaları tarih ve saat sırasıyla tek ekranda görün.
-- **UYAP `.ics` içe aktarma:** UYAP Avukat Portal'dan alınan takvim dosyalarını içe aktarın; duruşmalarla birlikte uygun müvekkil ve dosya kartları otomatik oluşturulsun.
-- **Bilgi Kartı:** Müvekkilleri ve dosyaları birbirine bağlı, fakat birbirinden bağımsız kayıtlar olarak yönetin.
-- **Hukuki süre hesabı:** Tebligata bağlı sürelerde son günü deterministik olarak hesaplayın; hesaplanan tarih kullanıcı onayı olmadan kaydedilmez.
-- **Gerçek UYAP evrak türleri:** Hukuk, ceza, idari yargı, icra ve soruşturma dosyalarında UYAP'taki gerçek evrak türlerinden bağlama uygun öneriler alın; isterseniz kendi metninizi yazın.
-- **Türkçe arama:** Büyük/küçük harf farkından bağımsız, Türkçe karakterlerle uyumlu arama.
-- **Excel dışa aktarımı:** İş listesini ve dosya listesini Excel'e aktarın.
-- **Açık ve koyu tema:** Tema tercihi kalıcı olarak saklanır.
-- **Erişilebilir kullanım:** Klavye erişimi, görünür odak durumları ve ekran okuyucu etiketleri uygulamanın temel arayüzlerinde korunur.
+| | |
+| --- | --- |
+| 🧾 **İş ve süre takibi** | Süreli veya süresiz işleri kaydedin; hatırlatmaları ihtiyacınıza göre yönetin. |
+| 🏛️ **Duruşma takvimi** | Yaklaşan duruşmaları tarih ve saat sırasıyla tek ekranda görün. |
+| 📥 **UYAP `.ics` içe aktarma** | UYAP Avukat Portal’dan alınan takvim dosyalarını içe aktarın; uygun müvekkil ve dosya kartları otomatik oluşsun. |
+| 🗂️ **Bilgi Kartı** | Müvekkilleri ve dosyaları birbirine bağlı, fakat birbirinden bağımsız kayıtlar olarak yönetin. |
+| ⏱️ **Hukuki süre hesabı** | Tebligata bağlı sürelerde son günü deterministik olarak hesaplayın; kullanıcı onayı olmadan kaydetmeyin. |
+| ⚖️ **Gerçek UYAP evrak türleri** | Hukuk, ceza, idari yargı, icra ve soruşturma dosyalarında bağlama uygun öneriler alın. |
+| 🔎 **Türkçe arama** | Büyük/küçük harf farkından bağımsız, Türkçe karakterlerle uyumlu arama yapın. |
+| 📊 **Excel dışa aktarımı** | İş ve dosya listelerini Excel’e aktarın. |
+| 🌗 **Açık / koyu tema** | Tema tercihinizi kalıcı olarak saklayın. |
+| ♿ **Erişilebilir kullanım** | Klavye erişimi, görünür odak durumları ve ekran okuyucu etiketleriyle çalışın. |
 
-## Hukuki sürelerde son söz kullanıcıda
+<p align="center">
+  <img src="docs/images/nobetcitakvim-workflow.svg" alt="NöbetçiTakvim çalışma akışı" width="100%" />
+</p>
 
-NöbetçiTakvim süreyi sizin yerinize "kesinleştirmez". Hesaplamayı açık kurallarla yapar, sonucu gösterir ve **hesaplanan son tarih kullanıcı tarafından doğrulanmadan kaydetmez**.
+## ✨ Hukuki sürelerde son söz kullanıcıda
+
+NöbetçiTakvim süreyi sizin yerinize **kesinleştirmez**. Hesaplamayı açık kurallarla yapar, sonucu gösterir ve **hesaplanan son tarih kullanıcı tarafından doğrulanmadan kaydetmez.**
 
 Bu yaklaşım bilinçlidir: uygulama mekanik işi azaltır; hukuki değerlendirme ve nihai sorumluluk kullanıcıda kalır.
 
-## UYAP ile birlikte, UYAP'ın yerine değil
+## 🧭 UYAP ile birlikte, UYAP’ın yerine değil
 
-NöbetçiTakvim UYAP'ın yerini almaya çalışmaz. UYAP Avukat Portal'dan alınan `.ics` takvim dosyalarını yerel çalışma düzeninize taşır ve bunları daha kullanılabilir bir iş/dosya yapısına dönüştürür.
+NöbetçiTakvim UYAP’ın yerini almaya çalışmaz. UYAP Avukat Portal’dan alınan `.ics` takvim dosyalarını yerel çalışma düzeninize taşır ve bunları daha kullanılabilir bir iş/dosya yapısına dönüştürür.
 
 İçe aktarma sırasında:
 
@@ -41,36 +61,34 @@ NöbetçiTakvim UYAP'ın yerini almaya çalışmaz. UYAP Avukat Portal'dan alın
 - aynı veri yeniden içe aktarıldığında mükerrer kayıt üretmemeye çalışılır,
 - elle eklediğiniz müvekkil bilgileri otomatik içe aktarma nedeniyle ezilmez.
 
-## İndir
+## ⬇️ İndir
 
-En güncel kararlı sürüm için **[Releases](../../releases/latest)** sayfasını açın.
+> ### **[Releases sayfasından en güncel kararlı sürümü indirin.](../../releases/latest)**
 
-| Platform | Paket |
-| --- | --- |
-| macOS — Apple Silicon | `NobetciTakvim-<sürüm>-arm64.dmg` |
-| Windows — x64 | `NobetciTakvim.Setup.<sürüm>.exe` |
+| Platform | Paket | Durum |
+| --- | --- | --- |
+| 🍎 **macOS — Apple Silicon** | `NobetciTakvim-<sürüm>-arm64.dmg` | Developer ID ile imzalı ve Apple tarafından notarize edilmiş |
+| 🪟 **Windows — x64** | `NobetciTakvim.Setup.<sürüm>.exe` | NSIS kurulum paketi |
 
-### macOS
+### 🍎 macOS
 
-macOS paketleri **Apple Developer ID** ile imzalanır ve Apple tarafından **notarize** edilir.
+DMG dosyasını açın ve NöbetçiTakvim’i **Applications / Uygulamalar** klasörüne taşıyın. macOS paketleri **Apple Developer ID** ile imzalanır ve Apple tarafından **notarize** edilir.
 
-DMG dosyasını açın ve NöbetçiTakvim'i **Applications / Uygulamalar** klasörüne taşıyın.
-
-### Windows
+### 🪟 Windows
 
 Windows sürümü NSIS kurulum paketi olarak dağıtılır. Mevcut Windows paketi kod imzasız olduğundan SmartScreen ilk kurulumda uyarı gösterebilir.
 
-## Veri yaklaşımı
+## 🔒 Veri yaklaşımı
 
 NöbetçiTakvim **local-first** tasarlanmıştır. Müvekkil, dosya, iş ve takvim verilerinin ana kaydı cihazınızdadır. Uygulama; belge içeriğini analiz etmek, hukuki karar vermek veya kullanıcı verisini uzaktaki bir yapay zekâ servisine göndermek üzerine kurulmamıştır.
 
 Google Takvim bağlantısı kullanılıyorsa bu, isteğe bağlı bir yardımcı kanal olarak çalışır; uygulamanın yerel kayıt yapısının yerini almaz.
 
-## Dosya doğrulama
+## 🧪 Dosya doğrulama
 
 Her sürümün release notlarında yayımlanan paketler için **SHA-256** özetleri bulunur. İndirdiğiniz dosyanın bütünlüğünü bu değerlerle doğrulayabilirsiniz.
 
-## Dağıtım deposu hakkında
+## 🧱 Bu depo hakkında
 
 Bu repository yalnız son kullanıcıya sunulan NöbetçiTakvim paketlerinin dağıtımı içindir.
 
@@ -78,5 +96,7 @@ Bu repository yalnız son kullanıcıya sunulan NöbetçiTakvim paketlerinin da�
 
 ---
 
-**NöbetçiTakvim** — *Her iş, vaktinde.*  
-© 2026 Raci Çetin Yüksekbaş
+<p align="center">
+  <strong>NöbetçiTakvim</strong> — <em>Her iş, vaktinde.</em><br/>
+  © 2026 Raci Çetin Yüksekbaş
+</p>
