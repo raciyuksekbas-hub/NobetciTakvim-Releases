@@ -93,10 +93,6 @@ Kullanıcının destek talebi kapsamında kendi iradesiyle geliştiriciye gönde
 
 > **Özetle:** NöbetçiTakvim’de tuttuğunuz hukuk verilerine geliştiricinin teknik erişimi yoktur. Verilerinizin ana kaydı kendi bilgisayarınızdadır; Google Takvim’i siz özellikle etkinleştirirseniz yalnız bu entegrasyon için gerekli veriler Google altyapısıyla paylaşılabilir.
 
-## 🤲 Küçük bir ricam
-
-> Bu uygulama, meslektaşlarımın işini kolaylaştırmak amacıyla ücretsiz olarak sunulmaktadır. Karşılığında sizden tek ricam, başta anneannem olmak üzere, ahirete irtihal etmiş tüm Türk büyüklerim için bir dua etmenizdir.
-
 ## 🧪 Dosya doğrulama
 
 Her sürümün release notlarında yayımlanan paketler için **SHA-256** özetleri bulunur. İndirdiğiniz dosyanın bütünlüğünü bu değerlerle doğrulayabilirsiniz.
