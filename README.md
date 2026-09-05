@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="docs/images/nobetcitakvim-hero.svg" alt="NöbetçiTakvim — Her iş, vaktinde." width="100%" />
-</p>
 
 <p align="center">
   <strong>⚖️ Hukuk pratiğine özel</strong> · <strong>🖥️ macOS + Windows</strong> · <strong>🔒 Local-first</strong> · <strong>🆓 Ücretsiz</strong>
